@@ -1,19 +1,15 @@
 // Imprime todas las permutaciones de los caracteres que componen el string
 
-public class Tarea_4_3 
-{
-    public static void main (String args[])
-    {
+public class PermutarCadena_recursion {
+    public static void main (String args[]){
         permute("abc");
     }
 
-    public static void permute(String str) 
-    { 
+    public static void permute(String str) { 
         permutar("", str); 
     }
     
-    private static void permutar(String prefijo, String str) 
-    {
+    private static void permutar(String prefijo, String str) {
         int n = str.length();
         if (n == 0) 
             System.out.println(prefijo);

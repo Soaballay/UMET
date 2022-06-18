@@ -3,10 +3,8 @@ De una lista de enteros verificar si la suma de un subconjunto da un entero K.
 Algoritmo O(NK)
 */
 
-public class Tarea_4_2
-{
-    public static void main (String args[]) 
-    { 
+public class SumaSubconjuntos_recursion{
+    public static void main (String args[]) { 
         int lista[] = {3, 34, 4, 12, 5}; 
         int k = 9; 
         int n = lista.length; 
@@ -16,8 +14,7 @@ public class Tarea_4_2
             System.out.println("No existe subconjunto que sume " + k); 
     } 
 
-    static boolean recursion(int lista[], int n, int suma) 
-    { 
+    static boolean recursion(int lista[], int n, int suma) { 
         if (suma == 0) 
             return true; 
         if (n == 0 && suma != 0) 

@@ -1,13 +1,11 @@
 // Calcula máximo común divisor con recursión
 
-public class Tarea_4_1{
-    public static void main(String[] args)
-    {
+public class Gcd_recursion{
+    public static void main(String[] args){
         gcd(1995,1494);
     }
     
-    static void gcd(int a, int b)
-    {
+    static void gcd(int a, int b){
         if (b == 0)
             System.out.print(a);
         else

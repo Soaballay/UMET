@@ -17,7 +17,7 @@ public class SopaDeLetras {
         LeerDiccionario();
     }
     
-    public int ResolverSopa(){
+    public int Resolver(){
         int matches = 0;
 
         for (int r=0; r< filas; r++)
@@ -151,6 +151,6 @@ public class SopaDeLetras {
         }
 
         System.out.println("Buscando... ");
-        p.ResolverSopa();
+        p.Resolver();
     }
 }
