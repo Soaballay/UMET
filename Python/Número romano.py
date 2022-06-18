@@ -4,7 +4,7 @@ dicc = [(1000, 'M'), (900, 'CM'), (500, 'D'), (400, 'CD'), (100, 'C'), (90, 'XC'
 
 def num_romano():
     romano = ''
-    num = int(input("Ingrese un número entero: "))
+    num = int(input("Ingrese un número: "))
     while num > 0:
         for i, r in dicc:
             while num >= i:

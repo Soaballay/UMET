@@ -30,4 +30,3 @@ def confirmacion():
     
 tirar_dado()
 confirmacion()
-
