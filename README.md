@@ -1,2 +1,2 @@
 # UMET
-Ejercitación académica en C++, Java y Python
+Ejercitación académica en C++, Java, Python y SQL
